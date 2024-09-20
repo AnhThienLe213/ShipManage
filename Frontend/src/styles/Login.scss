@@ -1,0 +1,19 @@
+.admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #4aceaa;
+    border-bottom: 2px solid;
+    .alt {
+        border-right: 2px solid black;
+        /* padding: 40px; */
+        width: 200px;
+        line-height: 40px;
+        /* justify-content: center; */
+        text-align: center;
+        padding-left: 12px;
+    }
+    .alt:hover {
+        background-color: #4baf53c4;
+    }
+}

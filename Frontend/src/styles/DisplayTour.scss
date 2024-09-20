@@ -1,0 +1,71 @@
+.tour-container {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px;
+    padding: 20px 10px 15px 10px;
+    flex-direction: row;
+  .tour-content {
+    flex: 1 1;
+    margin: 0 10px;
+    /* background-color: #fff; */
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* padding: 20px; */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    text-align: start;
+    width: 380px !important;
+    box-sizing: border-box;
+    .tour-time {
+      font-size: 16px;
+      font-family: sans-serif;
+      padding-top: 10px;
+      span{
+        font-weight: 700;
+      }
+  }
+    .tour-desti{
+      padding-top: 10px;
+      font-size: 16px;
+      font-family: sans-serif;
+      span{
+        font-weight: 700;
+      }
+    }
+    .tour-previewImg{
+      height: 200px;
+    width: 100%;
+    background: center center no-repeat;
+    background-size: cover;
+    }
+    .tour-descri{
+      height: 80px;
+      font-size: 16px;
+      font-family: sans-serif;
+      font-style: oblique;
+      color: #12507a;
+      border-bottom: 2px solid darkblue;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding-bottom: 10px;
+    }
+    .tour-price{
+      display: flex;
+      flex-direction: row;
+      font-size: 16px;
+      font-style: oblique;
+      justify-content: space-between;
+      padding-top: 10px;
+      font-weight: 400;
+    }
+  }
+}
+.see-all{
+  display: flex;
+  justify-content: end;
+  font-size: 18px;
+  font-style: oblique;
+  margin:10px 10px 0 0;
+}

@@ -1,0 +1,101 @@
+
+.create{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột, mỗi cột chiếm 1 phần */
+    gap: 20px; /* Khoảng cách giữa các khối */
+    padding: 20px; /* Khoảng cách bên trong container */
+    .contain{
+       // background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+        position: relative;
+        background-color: rgb(83 226 178);
+        .label{
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .div-inp{
+            margin-bottom: 10px;
+            .inp{
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+        }
+        .previewImg{
+            height: 60px;
+            width: 150px;
+            background: center center no-repeat;
+            background-size: contain;
+            border: 2px solid #366d36;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #ddd;
+        }
+    }
+    .btn{
+        width: 90px;
+        height: 30px;
+        font-family: monospace;
+        border: 2px solid green;
+        cursor: pointer;
+    }
+}
+.table-container {
+    margin: 20px;
+    overflow-x: auto; /* Đảm bảo rằng bảng có thể cuộn ngang nếu quá rộng */
+  }
+  
+  
+  
+.styled-table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    thead {
+        tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+            th{
+                padding: 12px 15px;
+                border: 1px solid #dddddd;
+            }
+        }
+   }
+   tbody{
+        tr{
+            border-bottom: 1px solid #dddddd;
+            td{
+                padding: 12px 15px;
+                border: 1px solid #dddddd;
+            }
+        }
+        tr:nth-of-type(even){
+            background-color: #f3f3f3;
+        }
+        tr:last-of-type{
+            border-bottom: 2px solid #009879;
+        }
+        tr.active-row{
+            font-weight: bold;
+            color: #009879;
+        }
+   }
+}
+   

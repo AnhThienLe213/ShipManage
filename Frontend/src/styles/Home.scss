@@ -1,0 +1,324 @@
+.ads{
+        text-align: left;
+        margin-left: 20px;
+        margin: -80px 20px 0 20px ;
+       
+     
+        h1{
+                padding-left: 40px;
+                color: #a6ff00;
+                font-size: 45px;
+                margin: 0;
+                text-shadow: 0 2px 2px #10390e;
+        }
+        .ads-des {
+                font-size: 20px;
+                margin-bottom: 0;
+                text-indent: 40px;
+                padding: 0 10px;
+                font-style: oblique;
+                color: black;
+            }
+        color: rgb(12, 88, 17);
+}
+.halong-info{
+        .tophalong{
+                h3{
+                        font-family: inherit;
+                        color: rgb(255, 255, 255);
+                        padding-left: 50px;
+                        font-style: italic;
+                        width: 400px;
+                        background-color: #1e7e88;
+                        padding-right: 0;
+                        font-size: 22px;
+                        border-radius: 0 16px 16px 0;
+                }
+        }
+        .top-attractions{
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+        background-color: #71d9ba;
+        box-shadow: 0px 0px 4px #6bb06f;
+        }
+}
+        .video{
+                display: flex;   
+                margin: 50px 20px 0 0;
+                background-color: #c0e0d9b0;
+                width: 100%;
+                padding: 30px 0 40px 0;
+                box-shadow: 0px 0px 2px 2px #9595955c;
+                .video-content {
+                        width: 400px !important;
+                        height: 250px !important;
+                        padding-left: 20px;
+                }
+                .video-info {
+                        width: 800px;
+                        padding-left: 20px;
+                h2{
+                        margin:0;
+                        font-size:24px;
+                        font-family: Arial, Helvetica, sans-serif;
+                }
+                p {
+                        font-family: "Open Sans", mallory, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                        font-size: 15px;
+                        color: #000000;
+                }
+                }
+        }
+        .footer{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                background-color: #3e7eb6;
+                margin-top: 50px;
+                padding: 20px 50px;
+                .footer-img {
+                        width: 126px;
+                        height: 126px;
+                        background: center;
+                }
+                .footer-content {
+                        margin-left: 20px;
+                        color: white;
+                        .footer-content1 {
+                                font-size: 26px;
+                                font-weight: 600;
+                        }
+                        .footer-content2 {
+                                font-family: none;
+                                line-height: 40px;
+                                font-size: 20px;
+                        }
+                        .footer-content3 {
+                                font-size: 20px;
+                                font-weight: 700;
+                                .footer-phone{
+                                        color:#ffa545
+                                }
+                        }
+                }
+        }
+        .out {
+                position: absolute;
+                width: 50px;
+                border: 2px solid #195e3d;
+                border-radius: 8px;
+                /* position: relative; */
+                padding-left: 20px;
+                background-color: rgba(209, 243, 230, 0.4784313725);
+                margin-top: 10px;
+                cursor: pointer;
+                left: 900px;
+                top: 665px;
+            }
+            .out:hover {
+                background-color: #b8edd9;
+            }
+        .ct{
+                position: relative;
+                margin: 10px 20px;
+                .ct-left{
+                    width: 880px;
+                    display: inline-block;
+                    .content-tour{
+                        margin: 0 10px;
+                        background-color: #c6d9ed94;
+                        border: 1px solid #ddd;
+                        border-radius: 8px;
+                        padding: 20px;
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        text-align: start;
+                        width: 850px !important;
+                        box-sizing: border-box;
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 10px;
+                        .previewImg{
+                            height: auto;
+                            width: 40%;
+                            background: center center no-repeat;
+                            background-size: cover;
+                        }
+                        .tour-info{
+                            padding-left: 20px;
+                            width: 55%;
+                            .descri{
+                                font-size: 20px;
+                                font-family: sans-serif;
+                                font-style: oblique;
+                                color: #011385;
+                                /* border-bottom: 2px solid darkblue; */
+                                font-weight: bold;
+                                display: flex;
+                                flex-direction: column;
+                            }
+                            .star{
+                                font-size: 20px;
+                                /* padding-left: 10px; */
+                                color: #ffea00;
+                            }  
+                            .time{
+                                font-size: 17px;
+                                font-family: sans-serif;
+                                padding-top: 5px;
+                            }
+                            .desti{
+                                padding-top: 10px;
+                                font-size: 17px;
+                                font-family: sans-serif;
+                            }
+                            .price{
+                                display: flex;
+                                flex-direction: row;
+                                font-size: 17px;
+                                font-style: oblique;
+                                justify-content: space-between;
+                                padding-top: 10px;
+                            }
+                        }
+                    }
+                    .content-des{
+                        font-size:14px;
+                    }
+                }
+                .ct-right{
+                    width: 200px;
+                    display: inline-block;
+                    position: absolute;
+                    top: 0px;
+                    .search{
+                        width: 300px;
+                        select {
+                            width: 300px;
+                            height: 28px;
+                            margin: 5px;
+                            font-weight: 700;
+                            border: 2px solid #adb3c0;
+                        }
+                        button {
+                            width: 120px;
+                            height: 25px;
+                            font-weight: 600;
+                            border: 2px;
+                            cursor: pointer;
+                            margin: 5px;
+                        }
+                        button:hover {
+                            border: 2px solid #7c727282;
+                        }
+                    }
+                    .support {
+                        width: 300px;
+                        border: 2px solid #2b908d;
+                        border-radius: 8px;
+                        margin-top: 20px;
+                        .support-text {
+                            background-color: #2b908d;
+                            color: white;
+                            padding-left: 10px;
+                            padding-bottom: 5px;
+                            font-weight: 500;
+                        }
+                        .support-staff {
+                            display: flex;
+                            flex-direction: row;
+                            width: 300px;
+                            align-items: center;
+                            .staff-img {
+                                width: 20%;
+                                height: 60px;
+                                background: center center no-repeat;
+                                background-size: contain;
+                                margin: 10px 10px 10px 20px;
+                            }
+                            .staff-info {
+                                display: block;
+                                font-family: 'Open Sans', mallory, 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+                                /* line-height: 21px; */
+                                .staff-name {
+                                    font-size: 16px;
+                                    font-weight: 700;
+                                    line-height: 21px;
+                                }
+                                .staff-email {
+                                    font-size: 16px;
+                                    line-height: 21px;
+                                }
+                                .staff-phone {
+                                    font-size: 16px;
+                                    line-height: 21px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .tour-des {
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    padding: 10px 20px;
+                    font-style: italic;
+                    font-weight: 700;
+                    margin-top: -10px;
+                    color: #041f3da3;
+                }
+            }
+            .form-group{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+                padding: 20px;
+                background-color: #a7e0e4c4;
+                margin-top: 10px;
+                border-radius: 8px;
+                .contain{
+                   // background-color: #f9f9f9;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    padding: 15px;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                    font-size: 15px;
+                    position: relative;
+                    background-color: rgb(83 226 178);
+                    .label{
+                        display: block;
+                        margin-bottom: 8px;
+                        font-weight: bold;
+                    }
+                    .div-inp{
+                        margin-bottom: 10px;
+                        .inp{
+                            width: 100%;
+                            padding: 8px;
+                            border: 1px solid #ccc;
+                            border-radius: 4px;
+                            box-sizing: border-box;
+                        }
+                    }
+                    .previewImg{
+                        height: 60px;
+                        width: 150px;
+                        background: center center no-repeat;
+                        background-size: contain;
+                        border: 2px solid #366d36;
+                        position: absolute;
+                        top: 20px;
+                        right: 20px;
+                        background-color: #ddd;
+                    }
+                }
+                .btn1{
+                    width: 125px;
+                    height: 35px;
+                    font-family: monospace;
+                    border: 2px solid green;
+                    cursor: pointer;
+                }
+                .btn1:hover {
+                    background-color: #71e5da52;
+                }
+            }

@@ -1,0 +1,72 @@
+.cruise-container {
+    //display: flex;
+    justify-content: space-between; /* Khoảng cách đều nhau giữa các phần tử */
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px 30px 10px;
+    background-color: #66c9db;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    .slick-prev:before, .slick-next:before{
+      color: #665454;
+    }
+    .see-all{
+      display: flex;
+      justify-content: end;
+      font-size: 18px;
+      font-style: oblique;
+      margin:10px 10px 0 0;
+    }
+    .cruise-content {
+      flex: 1 1;
+      margin: 0 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: start;
+      width: 380px !important;
+      box-sizing: border-box;
+      .cruise-time {
+        font-size: 20px;
+        font-family: sans-serif;
+        padding-top: 10px;
+    }
+      .cruise-desti{
+        padding-top: 10px;
+        font-size: 20px;
+        font-family: sans-serif;
+      }
+      .cruise-previewImg{
+        height: 200px;
+        width: 100%;
+        background: center center no-repeat;
+        background-size: cover;
+      }
+      .cruise-descri{
+          height: 80px;
+          font-size: 18px;
+          font-family: sans-serif;
+          font-style: oblique;
+          color: #e90098;
+          border-bottom: 2px solid darkblue;
+          font-weight: bold;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          padding-bottom: 10px;
+      }
+      .cruise-price{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        font-style: oblique;
+        justify-content: space-between;
+        padding-top: 10px;
+      }
+    }
+  }
+  

@@ -1,0 +1,190 @@
+.hotel-container {
+    margin: 0 10px 0 50px;
+    .hotel-content{
+        display: flex;
+        flex-direction: row;
+        .show-detail{
+            width: 860px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .show-list {
+                display: flex;
+                flex-direction: row;
+                margin-top: 20px;
+                background: linear-gradient(45deg, #a0c7b9, #47c9ad);
+                padding: 10px;
+                box-shadow: 1px -1px 2px #52d452;
+                border-radius: 8px;
+                .show-img {
+                    width: 300px;
+                    height: 200px;
+                    background: center center no-repeat;
+                    background-size: cover;
+                    margin-top: 37px;
+                }
+                .show-info {
+                    width: 550px;
+                    padding-left: 10px;
+                    .show-name {
+                        font-family: sans-serif;
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                    .show-text {
+                        font-size: 16px;
+                        line-height: 25px;
+                        .show-descrip {
+                            font-style: italic;
+                        }
+                    }
+                }
+            }
+            .out {
+                width: 50px;
+                border: 2px solid #195e3d;
+                border-radius: 8px;
+                position: absolute;
+                padding-left: 20px;
+                background-color: #d1f3e67a;
+                margin-top: 10px;
+                cursor: pointer;
+                top: 900px;
+    left: 830px;
+            }
+            .out:hover {
+                background-color: #b8edd9;
+            }
+        }
+        .hotel-left{
+            width: 860px;
+           .hotel-cap{
+                border-bottom: 1px dashed #bbb7b7;
+                color: #626262;
+                float: left;
+                font-size: 28px;
+                padding: 0 0 5px 0;
+                width: 840px;
+                margin: 5px 5px 5px 0;
+           }
+           .hotel-ad{
+                padding-bottom: 13px;
+                line-height: 1.5;
+                font-size: 14px;
+                font-family: "Open Sans", mallory, "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-style: italic;           
+            }
+           .hotel-list{
+            display: flex;
+            flex-direction: column;
+            width: 860px;
+            background: linear-gradient(180deg, rgb(174 216 205 / 59%), #ffffff);
+            margin-bottom: 15px;
+            box-shadow: 2px -2px 2px rgba(98, 98, 98, 0.3882352941);
+            overflow: hidden;
+            border-radius: 8px;
+            .hotel-name {
+                font-weight: 600;
+                padding: 5px 0 5px 10px;
+                border-bottom: 2px solid rgba(0, 0, 0, 0.5098039216);
+                font-size: 20px;
+                cursor: pointer;
+            }
+            .hotel-info {
+                display: flex;
+                flex-direction: row;
+                width: 860px;
+                .hotel-img {
+                    width: 185px;
+                    height: 150px;
+                    background: center;
+                    cursor: pointer;
+                }
+                .hotel-text {
+                    width: 650px;
+                    height: 150px;
+                    /* overflow: hidden; */
+                    font-size: 14px;
+                    padding-left: 15px;
+                    line-height: 20px;
+                    padding-top: 10px;
+                    box-sizing: border-box;
+                    font-family: arial;
+                    .hotel-descrip {
+                        overflow: hidden;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 3;
+                        -webkit-box-orient: vertical;
+                        text-overflow: ellipsis;
+                        line-height: 20px;
+                    }
+                }
+            }
+           } 
+        }
+        .hotel-right{
+            margin-left: 20px;
+            .fanpage-container {
+                margin-top: 10px;
+                padding-bottom: 6px;
+                border: 1px solid #0866ff;
+                border-radius: 8px;
+                overflow: hidden;
+                /* padding: 5px; */
+                background-color: #d5e4e8;
+                width: 290px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .fanpage-fb {
+                    padding: 5px;
+                    background-color: #0866ff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: white;
+                    width: 100%;
+                    margin-left: 10px;
+                }
+                .fanpage-plugin{
+                    border: none;
+                    overflow: hidden;
+                    width: 268px;
+                    height: 132px;
+                    margin: 5px;
+                }
+            }
+            .select-us {
+                margin-top: 15px;
+                width: 290px;
+                .select-us-img {
+                    width: 290px;
+                    height: 48px;
+                }
+                .select-us-content {
+                    border: 1.5px solid #eed9a0;
+                    border-top: none;
+                    border-radius: 0 0 8px 8px;
+                    .select-us-text{
+                        .select-us-list{
+                            margin-top:0 !important;
+                            list-style: none !important;
+                            padding-left: 20px;
+                            padding-top: 8px;
+                            padding-right: 8px;
+                            .tick{
+                                background: url('../assets/images/tick.png') no-repeat scroll 2px 5px transparent;
+                                font-size: 12px;
+                                border-bottom: 1px dotted #CCC;
+                                padding: 4px 5px 10px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// body :not(.show-detail) {
+//     filter: blur(5px); /* Sử dụng filter để làm mờ */
+// }

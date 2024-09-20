@@ -1,0 +1,44 @@
+{
+  "name": "ship-manage",
+  "version": "1.0.0",
+  "description": "Quan ly tau du lich",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnhThienLe213/Ship-Manage.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "AnhThienLe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnhThienLe213/Ship-Manage/issues"
+  },
+  "homepage": "https://github.com/AnhThienLe213/Ship-Manage#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.3",
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "16.4.5",
+    "ejs": "3.1.10",
+    "express": "4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "nodemailer": "^6.9.14",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "3.1.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}
